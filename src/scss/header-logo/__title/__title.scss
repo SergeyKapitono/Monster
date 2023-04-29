@@ -1,0 +1,5 @@
+.header-logo__title {
+    font-family: 'Prata';
+    @include font(400, 32px, 100%);
+    letter-spacing: 0.11em;
+}

@@ -1,0 +1,5 @@
+.menu__text {
+    @include font(500, 13px, 100%);
+    text-transform: uppercase;
+    margin-right: 60px;
+}

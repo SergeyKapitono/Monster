@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230417141414">
+    <script defer src="js/app.min.js?_v=20230306004231"></script>
+    <script defer src="js/script.js?_v=20230306004231"></script>
+    <title>Gold</title>
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="header__info">
+            <div class="header__wrap">
+
+                <button type="button" class="header__burger">
+                    <img src="img/header/burger-mobile.svg" alt="burger">
+                </button>
+                
+                <button type="button" class="header__cross">
+                    <img src="img/header/cross.svg" alt="cross">
+                </button>
+
+                <div class="header__gps">
+                    <img src="img/header/gps.svg" alt="gps">
+                </div>
+
+                <div class="header-select select">
+                    <div class="select__categories">
+                        <div class="select__header">
+                            <span class="select__title">Санкт-Петерсбург</span>
+                            <img src="img/header/arrow-down.svg" alt="arrow">
+                        </div>
+                        <ul class="select__body">
+                            <li class="select__item">Санкт-Петербург</li>
+                            <li class="select__item">Москва</li>
+                            <li class="select__item">Пенза</li>
+                            <li class="select__item">Казань</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header-tel">
+                    <div class="header-tel__wrap">
+                        <div class="header-tel__img">
+                            <img src="img/header/phone.svg" alt="phone">
+                        </div>
+                        <a href="tel:8800785235" class="header-tel__text header-tel__text--color">8 800 785-25-35</a>
+                    </div>
+                </div>
+
+                <div class="header-logo header-logo__wrap">
+                    <div class="header__logo--gold">
+                        <div class="header-logo__title header-logo__title--color">Gold</div>
+                        <div class="header-logo__title">Store</div>
+                    </div>
+                    <div class="header-logo__text header-logo__text--color">ювелирный магазин</div> 
+                </div>
+
+                <div class="header-singin header-singin__wrap">
+                    <div class="header-singin__text">Вход</div>
+                    <div class="header-singin__text">Регистрация</div>
+                </div>
+
+                <div class="header-group header-group__wrap">
+                    <div class="header-group__favorite header-group__nomobale">
+                        <img src="img/header/heart.svg" alt="favorite">
+                    </div>
+                    <div class="header-group__chart header-group__nomobale">
+                        <img src="img/header/chart.svg" alt="chart">
+                    </div>
+                    <div class="header-group__bag">
+                        <img src="img/header/bag.svg" alt="bag">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header__menu menu">
+            <button class="menu__catalog">
+                <span class="menu__text menu__text--color">Каталог</span>
+            </button>
+            <nav class="menu_nav">
+                <a href="#" class="menu__link menu__link--color">Акции</a>
+                <a href="#" class="menu__link menu__link--color">Бренды</a>
+                <a href="#" class="menu__link menu__link--color">Магазины</a>
+                <a href="#" class="menu__link menu__link--color">О нас</a>
+                <a href="#" class="menu__link menu__link--color">Доставка и оплата</a>
+                <a href="#" class="menu__link menu__link--color">Статьи</a>
+            </nav>
+            <div class="menu-find menu-find__wrap">
+                <img src="img/header/search.svg" alt="search">
+                <input class="menu-find__input menu-fdind__input--color" type="text"
+                    placeholder="Поиск по сайту">
+            </div>
+        </div>
+
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="" class="popup__close"></a>
+                    <form action="#" method="POST">  <!--action="mail.php"-->
+                        <legend>Регистрация</legend>
+      
+                        <div class="form__group">
+                            <label for="">Введите ваше имя</label>
+                            <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="">Введите номер телефона</label>
+                            <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="">Введите email</label>
+                            <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Регистрация</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+   <main class="main"></main>
+   <footer class="footer">
+</footer>
+</body>
+</html>

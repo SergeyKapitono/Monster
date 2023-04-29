@@ -1,0 +1,10 @@
+.header-singin__wrap {
+    margin-left: 229px;
+    @include vercen;
+}
+
+@media (max-width: 768px) {
+    .header-singin__wrap {
+        display: none;
+    }
+}

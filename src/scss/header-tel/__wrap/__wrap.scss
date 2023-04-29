@@ -1,0 +1,11 @@
+.header-tel__wrap {
+    display: flex;
+    margin: 27px 0 0 61px;
+}
+
+@media (max-width: 767px) {
+    .header-tel__wrap {
+        display: none;
+    }
+
+}

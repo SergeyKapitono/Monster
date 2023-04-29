@@ -1,0 +1,6 @@
+.header-logo__text {
+    font-family: 'Robobto Condensed';
+    @include font(300, 14px, 100%);
+    letter-spacing: 0.2em;
+    margin-left: 5px;
+}

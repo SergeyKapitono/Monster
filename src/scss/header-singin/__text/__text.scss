@@ -1,0 +1,10 @@
+.header-singin__text {
+        @include font(400, 14px, 100%);
+        border-right: 1px solid black;
+        padding: 5px 10px;
+        cursor: pointer;
+}
+
+.header-singin__text:last-child {
+    border-right: none;
+}

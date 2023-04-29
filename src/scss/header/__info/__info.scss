@@ -1,0 +1,10 @@
+.header__info {
+    margin-top: 24px;
+    margin-bottom: 23px;
+}
+
+@media (max-width: 768px) {
+    .header__info {
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+.menu__link {
+    @include font(500, 13px, 100%);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu__link:not(:last-child) {
+    margin-right: 60px;
+}
+
+.menu__link:hover {
+    border-bottom: 1px solid #303030;
+}

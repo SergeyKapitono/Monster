@@ -1,0 +1,11 @@
+.header__gps {
+    width: 16px;
+    height: 16px;
+    margin: 27px 8px;
+}
+
+@media (max-width: 767px) {
+    .header__gps {
+        display: none;
+    }
+}
